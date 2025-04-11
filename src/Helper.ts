@@ -484,7 +484,7 @@ class Helper {
     if (!this.isInitialized()) {
       console.warn("Helper class should be initialized before calling this method!");
     }
-    return Object.keys(this.#strategyOptions.views);
+    return Object.keys(this.#strategyOptions.views).filter(viewId => configurationDefaults.views[viewId]);
   }
 
   /**

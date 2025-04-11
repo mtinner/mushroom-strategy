@@ -101,6 +101,11 @@ export const configurationDefaults: StrategyDefaults = {
       showControls: true,
       hidden: false,
     },
+    lawn_mower: {
+      title: "Lawn Mower",
+      showControls: true,
+      hidden: false,
+    },
   },
   home_view: {
     hidden: [],
@@ -114,6 +119,7 @@ export const configurationDefaults: StrategyDefaults = {
     climate: {},
     camera: {},
     vacuum: {},
+    lawn_mower: {},
     binary_sensor: {},
   }
 };
